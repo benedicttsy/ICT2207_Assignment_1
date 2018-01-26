@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="0dp"
+    tools:context="com.example.team12.assignment_1.Human">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:textSize="35dp"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:text="Profile"
+                android:background="@color/colorAccent"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@mipmap/ic_launcher" />
+        </LinearLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="0,1"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp">
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/lbName"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name: "
+                    tools:layout_editor_absoluteX="16dp"
+                    tools:layout_editor_absoluteY="191dp" />
+
+            <TextView
+                android:id="@+id/tbName"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="191dp" />
+            </TableRow>
+
+
+
+            <TableRow>
+            <TextView
+                android:id="@+id/lbAge"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Age: "
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="222dp" />
+
+
+            <TextView
+                android:id="@+id/tbAge"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="287dp" />
+            </TableRow>
+            <TableRow>
+
+            <TextView
+                android:id="@+id/lbHobbies"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Hobbies:"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <TextView
+                android:id="@+id/tbHobbies"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="258dp" />
+            </TableRow>
+            <TableRow>
+            <TextView
+                android:id="@+id/lbSchool"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="School: "
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="328dp" />
+
+            <TextView
+                android:id="@+id/tbSchool"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="222dp" />
+            </TableRow>
+            <TableRow>
+
+            <TextView
+                android:id="@+id/lbCourse"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Course: "
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="287dp" />
+
+            <TextView
+                android:id="@+id/tbCourse"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="328dp" />
+            </TableRow>
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="changePicture"
+            android:text="Change Picture" />
+
+    </LinearLayout>
+
+</RelativeLayout>

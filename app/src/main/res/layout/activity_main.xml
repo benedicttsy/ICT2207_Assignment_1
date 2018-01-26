@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.team12.assignment_1.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="355dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:text="Good Day Humans! Welcome to Human Selection 101!"
+            android:textSize="30dp"
+            android:paddingTop="30dp"
+            android:paddingBottom="20dp"/>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/btnHuman1"
+                android:layout_width="356dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:text="Human 1"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="126dp" />
+</RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnHuman2"
+                android:layout_width="356dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:text="Human 2"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="189dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_gravity="center_horizontal">
+            <Button
+                android:id="@+id/btnHuman3"
+                android:layout_width="356dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:text="Human 3"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="250dp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:layout_gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btnHuman4"
+                android:layout_width="356dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/button"
+                android:textColor="#FFFFFF"
+                android:text="Human 4"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="317dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="createNew"
+                android:text="Create New"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="442dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>
