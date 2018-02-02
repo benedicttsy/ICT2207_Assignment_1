@@ -28,74 +28,75 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
-            android:orientation="vertical">
-<RelativeLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:paddingTop="10dp"
-    android:layout_gravity="center_horizontal">
-            <Button
-                android:id="@+id/btnHuman1"
-                android:layout_width="356dp"
-                android:layout_height="40dp"
-                android:background="@drawable/button"
-                android:textColor="#FFFFFF"
-                android:layout_gravity="center_horizontal"
-                android:text="Human 1"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="126dp" />
-</RelativeLayout>
+            android:orientation="vertical"
+            android:id="@+id/buttonLayout">
+            <!--<RelativeLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:paddingTop="10dp"-->
+    <!--android:layout_gravity="center_horizontal">-->
+            <!--<Button-->
+                <!--android:id="@+id/btnHuman1"-->
+                <!--android:layout_width="356dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@drawable/button"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:text="Human 1"-->
+                <!--tools:layout_editor_absoluteX="16dp"-->
+                <!--tools:layout_editor_absoluteY="126dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingTop="10dp"-->
+                <!--android:layout_gravity="center_horizontal">-->
 
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:layout_gravity="center_horizontal">
+            <!--<Button-->
+                <!--android:id="@+id/btnHuman2"-->
+                <!--android:layout_width="356dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@drawable/button"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:text="Human 2"-->
+                <!--tools:layout_editor_absoluteX="16dp"-->
+                <!--tools:layout_editor_absoluteY="189dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingTop="10dp"-->
+                <!--android:layout_gravity="center_horizontal">-->
+            <!--<Button-->
+                <!--android:id="@+id/btnHuman3"-->
+                <!--android:layout_width="356dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:background="@drawable/button"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:text="Human 3"-->
+                <!--tools:layout_editor_absoluteX="16dp"-->
+                <!--tools:layout_editor_absoluteY="250dp" />-->
+            <!--</RelativeLayout>-->
+            <!--<RelativeLayout-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:paddingTop="10dp"-->
+                <!--android:layout_gravity="center_horizontal">-->
 
-            <Button
-                android:id="@+id/btnHuman2"
-                android:layout_width="356dp"
-                android:layout_height="40dp"
-                android:background="@drawable/button"
-                android:textColor="#FFFFFF"
-                android:layout_gravity="center_horizontal"
-                android:text="Human 2"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="189dp" />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:layout_gravity="center_horizontal">
-            <Button
-                android:id="@+id/btnHuman3"
-                android:layout_width="356dp"
-                android:layout_height="40dp"
-                android:background="@drawable/button"
-                android:textColor="#FFFFFF"
-                android:layout_gravity="center_horizontal"
-                android:text="Human 3"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="250dp" />
-            </RelativeLayout>
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="10dp"
-                android:layout_gravity="center_horizontal">
+            <!--<Button-->
+                <!--android:id="@+id/btnHuman4"-->
+                <!--android:layout_width="356dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:background="@drawable/button"-->
+                <!--android:textColor="#FFFFFF"-->
+                <!--android:text="Human 4"-->
+                <!--tools:layout_editor_absoluteX="16dp"-->
+                <!--tools:layout_editor_absoluteY="317dp" />-->
+            <!--</RelativeLayout>-->
 
-            <Button
-                android:id="@+id/btnHuman4"
-                android:layout_width="356dp"
-                android:layout_height="40dp"
-                android:layout_gravity="center_horizontal"
-                android:background="@drawable/button"
-                android:textColor="#FFFFFF"
-                android:text="Human 4"
-                tools:layout_editor_absoluteX="16dp"
-                tools:layout_editor_absoluteY="317dp" />
-            </RelativeLayout>
         </LinearLayout>
 
         <LinearLayout
@@ -114,6 +115,39 @@
                 android:text="Create New"
                 tools:layout_editor_absoluteX="145dp"
                 tools:layout_editor_absoluteY="442dp" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+            <Button
+                android:id="@+id/btnShow"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:onClick="showAll"
+                android:text="Show all"
+                tools:layout_editor_absoluteX="145dp"
+                tools:layout_editor_absoluteY="442dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:paddingTop="10dp">
+
+
         </LinearLayout>
     </LinearLayout>
 

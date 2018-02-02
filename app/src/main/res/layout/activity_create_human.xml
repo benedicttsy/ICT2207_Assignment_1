@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.team12.assignment_1.createHuman"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:textSize="35dp"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="Creation"
+            android:background="@color/colorAccent"
+            />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="0,1"
+        android:paddingLeft="20dp"
+        android:paddingTop="20dp">
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/lbId"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Matric: "
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="191dp" />
+
+            <EditText
+                android:id="@+id/tbId"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="191dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:id="@+id/lbName"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="191dp" />
+
+            <EditText
+                android:id="@+id/tbName"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="191dp" />
+        </TableRow>
+
+
+
+        <TableRow>
+            <TextView
+                android:id="@+id/lbAge"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Age: "
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="222dp" />
+
+
+            <EditText
+                android:id="@+id/tbAge"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="287dp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/lbHobbies"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Hobbies:"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="258dp" />
+
+            <EditText
+                android:id="@+id/tbHobbies"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="258dp" />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:id="@+id/lbSchool"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="School: "
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="328dp" />
+
+            <EditText
+                android:id="@+id/tbSchool"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="222dp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/lbCourse"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Course: "
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="287dp" />
+
+            <EditText
+                android:id="@+id/tbCourse"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="328dp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/lbContact"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Contact: "
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="287dp" />
+
+            <EditText
+                android:id="@+id/tbContact"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="328dp" />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:id="@+id/lbEmail"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Email: "
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="287dp" />
+
+            <EditText
+                android:id="@+id/tbEmail"
+                android:layout_weight="8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:layout_editor_absoluteX="101dp"
+                tools:layout_editor_absoluteY="328dp" />
+        </TableRow>
+
+
+
+
+    </TableLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+
+            android:onClick="createProfile"
+            android:text="Create" />
+    </LinearLayout>
+
+</LinearLayout>
